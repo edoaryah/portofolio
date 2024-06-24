@@ -8,6 +8,7 @@ import { Badge } from "@/components/ui/badge";
 import { DATA } from "@/data/resume";
 import Link from "next/link";
 import Markdown from "react-markdown";
+import { DownloadIcon } from "lucide-react";
 
 const BLUR_FADE_DELAY = 0.04;
 
@@ -29,6 +30,14 @@ export default function Page() {
                 delay={BLUR_FADE_DELAY}
                 text={DATA.description}
               />
+              <BlurFade delay={BLUR_FADE_DELAY}>
+                <Link href="https://drive.google.com/file/d/14GcPaiWT9E5fZsp6BS2NmSywrxyZm1By/view?usp=sharing">
+                  <div className="inline-flex items-center rounded-lg bg-foreground text-background px-3 py-1 text-sm cursor-pointer transition-all duration-300 ease-out hover:opacity-75 font-semibold">
+                    My Portfolio
+                    <DownloadIcon className="ml-2 size-4" />
+                  </div>
+                </Link>
+              </BlurFade>
             </div>
             <BlurFade delay={BLUR_FADE_DELAY}>
               <Avatar className="size-28 border">
