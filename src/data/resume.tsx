@@ -150,7 +150,7 @@ export const DATA = {
       ],
       image: "",
       video:
-        "/video1.mp4",
+        "/project1.mp4",
     },
     {
       title: "Magic UI",
