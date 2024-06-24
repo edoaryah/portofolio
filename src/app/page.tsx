@@ -1,4 +1,5 @@
 import { HackathonCard } from "@/components/hackathon-card";
+import { OrganisationCard } from "@/components/organisation-card";
 import BlurFade from "@/components/magicui/blur-fade";
 import BlurFadeText from "@/components/magicui/blur-fade-text";
 import { ProjectCard } from "@/components/project-card";
@@ -204,6 +205,50 @@ export default function Page() {
           </BlurFade>
         </div>
       </section>
+
+      <section id="organisations">
+        <div className="space-y-12 w-full py-12">
+          <BlurFade delay={BLUR_FADE_DELAY * 13}>
+            <div className="flex flex-col items-center justify-center space-y-4 text-center">
+              <div className="space-y-2">
+                <div className="inline-block rounded-lg bg-foreground text-background px-3 py-1 text-sm">
+                  Hackathons
+                </div>
+                <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">
+                  I like building things
+                </h2>
+                <p className="text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
+                  During my time in university, I attended {DATA.organisations.length}+
+                  hackathons. People from around the country would come together and
+                  build incredible things in 2-3 days. It was eye-opening to see the
+                  endless possibilities brought to life by a group of motivated and
+                  passionate individuals.
+                </p>
+              </div>
+            </div>
+          </BlurFade>
+          <BlurFade delay={BLUR_FADE_DELAY * 14}>
+            <ul className="mb-4 ml-4 divide-y divide-dashed border-l">
+              {DATA.organisations.map((organisation, id) => (
+                <BlurFade
+                  key={organisation.title + organisation.dates}
+                  delay={BLUR_FADE_DELAY * 15 + id * 0.05}
+                >
+                  <OrganisationCard
+                    title={organisation.title}
+                    description={organisation.description}
+                    location={organisation.location}
+                    dates={organisation.dates}
+                    image={organisation.image}
+                    links={organisation.links}
+                  />
+                </BlurFade>
+              ))}
+            </ul>
+          </BlurFade>
+        </div>
+      </section>
+
       <section id="contact">
         <div className="grid items-center justify-center gap-4 px-4 text-center md:px-6 w-full py-12">
           <BlurFade delay={BLUR_FADE_DELAY * 16}>
@@ -212,7 +257,8 @@ export default function Page() {
                 Contact
               </div>
               <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">
-                Get in Touch
+                {/* Get in Touch */}
+                Let's Collaborate with Me
               </h2>
               <p className="mx-auto max-w-[600px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
                 Want to chat? Just shoot me a dm{" "}
