@@ -10,7 +10,7 @@ export const DATA = {
     "Currently exploring software engineering opportunities with a strong focus on backend development.",
   summary:
     "Information Systems student at the [State Polytechnic of Malang](https://www.polinema.ac.id/) with work experience in the field of software engineering and networking. Possesses hands-on experience as a backend and frontend engineer for websites and mobile applications. I have strong interpersonal skills, including excellent communication, effective teamwork, high initiative, and strong analytical abilities. I am seeking to further develop my expertise in software engineering.",
-  avatarUrl: "/profile2.JPG",
+  avatarUrl: "/profile.JPG",
   skills: [
     "API Integration",
     "RESTful API",
@@ -39,14 +39,6 @@ export const DATA = {
       LinkedIn: {
         url: "https://www.linkedin.com/in/edoarya/",
         icon: Icons.linkedin,
-      },
-      X: {
-        url: "https://x.com/dillionverma",
-        icon: Icons.x,
-      },
-      Youtube: {
-        url: "https://youtube.com/c/dillionverma",
-        icon: Icons.youtube,
       },
     },
   },
