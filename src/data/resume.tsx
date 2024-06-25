@@ -10,7 +10,7 @@ export const DATA = {
     "Currently exploring software engineering opportunities with a strong focus on backend development.",
   summary:
     "Information Systems student at the [State Polytechnic of Malang](https://www.polinema.ac.id/) with work experience in the field of software engineering and networking. Possesses hands-on experience as a backend and frontend engineer for websites and mobile applications. I have strong interpersonal skills, including excellent communication, effective teamwork, high initiative, and strong analytical abilities. I am seeking to further develop my expertise in software engineering.",
-  avatarUrl: "/me.png",
+  avatarUrl: "/profile2.JPG",
   skills: [
     "API Integration",
     "RESTful API",
