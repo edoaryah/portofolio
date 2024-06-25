@@ -27,7 +27,6 @@ export const DATA = {
     "Postman",
     "Git Version Control",
     "Odoo",
-    "Odoo",
   ],
   contact: {
     email: "edoarya2002@gmail.com",
