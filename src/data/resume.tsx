@@ -4,7 +4,7 @@ export const DATA = {
   name: "Edo Arya",
   initials: "EA",
   url: "https://dillion.io",
-  location: "San Francisco, CA",
+  location: "Malang, East Java",
   locationLink: "https://www.google.com/maps/place/sanfrancisco",
   description:
     "Currently exploring software engineering opportunities with a strong focus on backend development.",
@@ -29,8 +29,8 @@ export const DATA = {
     "Odoo",
   ],
   contact: {
-    email: "hello@example.com",
-    tel: "+123456789",
+    email: "edoarya2002@gmail.com",
+    tel: "+6281231994646",
     social: {
       GitHub: {
         url: "https://github.com/edoaryah",
@@ -39,6 +39,10 @@ export const DATA = {
       LinkedIn: {
         url: "https://www.linkedin.com/in/edoarya/",
         icon: Icons.linkedin,
+      },
+      Instagram: {
+        url: "https://www.instagram.com/edoaryaa/",
+        icon: Icons.instagram,
       },
     },
   },

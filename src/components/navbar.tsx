@@ -9,7 +9,7 @@ import {
 } from "@/components/ui/tooltip";
 import { DATA } from "@/data/resume";
 import { cn } from "@/lib/utils";
-import { HomeIcon, NotebookIcon } from "lucide-react";
+import { HomeIcon, NotebookIcon, StickyNoteIcon} from "lucide-react";
 import Link from "next/link";
 
 export default function Navbar() {
@@ -35,7 +35,24 @@ export default function Navbar() {
             </TooltipContent>
           </Tooltip>
         </DockIcon>
-        
+        <DockIcon>
+          <Tooltip>
+            <TooltipTrigger asChild>
+              <Link
+                href="https://drive.google.com/file/d/1Hk1E9Um2GgM5-pU4ls7kshKVIrFUTihx/view?usp=sharing"
+                className={cn(
+                  buttonVariants({ variant: "ghost", size: "icon" }),
+                  "size-12"
+                )}
+              >
+                <StickyNoteIcon className="size-4" />
+              </Link>
+            </TooltipTrigger>
+            <TooltipContent>
+              <p>CV</p>
+            </TooltipContent>
+          </Tooltip>
+        </DockIcon>
         <Separator orientation="vertical" className="h-full" />
         {Object.entries(DATA.contact.social).map(([name, social]) => (
           <DockIcon key={name}>
