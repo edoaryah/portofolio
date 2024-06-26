@@ -203,8 +203,7 @@ export const DATA = {
       href: "https://automatic.chat",
       dates: "Sep 2023 - Dec 2023",
       active: true,
-      description:
-        "SIREMA (Sistem Rekomendasi Magang) is an integrated system designed for the [Information Technology Department](https://jti.polinema.ac.id/) at Politeknik Negeri Malang. As a full stack developer, I created a mobile app that allows lecturers to access student dashboards and receive feedback, while students can submit campus surveys, incident reports, and access personalized internship recommendations.",
+      description: "SIREMA (Sistem Rekomendasi Magang) is an integrated system designed for the [Information Technology Department](https://jti.polinema.ac.id/) at Politeknik Negeri Malang. As a full stack developer, I created a mobile app that allows lecturers to access student dashboards and receive feedback, while students can submit campus surveys, incident reports, and access personalized internship recommendations.",
       technologies: [
         "Flutter",
         "Laravel",
@@ -222,8 +221,7 @@ export const DATA = {
         },
       ],
       image: "",
-      video:
-        "https://pub-83c5db439b40468498f97946200806f7.r2.dev/automatic-chat.mp4",
+      video: "https://pub-83c5db439b40468498f97946200806f7.r2.dev/automatic-chat.mp4",
     },
   ],
   hackathons: [
