@@ -152,7 +152,7 @@ export const DATA = {
       dates: "Apr 2024 - Jun 2024",
       active: true,
       description:
-        "Designed, developed and sold animated UI components for developers.",
+        "Developed as part of the RevoU Kampus Merdeka Batch 6 program, this website showcases data visualizations from a European bicycle sales. Developed collaboratively by Team 8 Semarang, it provides insights into sales trends and customer behavior, aiding decision-making processes.",
       technologies: [
         "HTML",
         "CSS",
@@ -204,7 +204,7 @@ export const DATA = {
       dates: "Sep 2023 - Dec 2023",
       active: true,
       description:
-        "Developed an AI Customer Support Chatbot which automatically responds to customer support tickets using the latest GPT models.",
+        "SIREMA (Sistem Rekomendasi Magang) is an integrated system designed for the [Information Technology Department](https://jti.polinema.ac.id/) at Politeknik Negeri Malang. As a full stack developer, I created a mobile app that allows lecturers to access student dashboards and receive feedback, while students can submit campus surveys, incident reports, and access personalized internship recommendations.",
       technologies: [
         "Flutter",
         "Laravel",
@@ -337,7 +337,7 @@ export const DATA = {
       title: "Himpunan Mahasiswa Teknologi Informasi",
       dates: "December 2021 - February 2023",
       location: "Malang",
-      description: "",
+      description: "Served as an organizing committee member in the Interest and Talent Division. Organized and coordinated various projects and events within the student association",
       image: "/hmti.png",
       links: [],
     },
@@ -345,7 +345,7 @@ export const DATA = {
       title: "UI GreenCityMetric",
       dates: "September 2023",
       location: "Malang",
-      description: "",
+      description: "Volunteered at the National Workshop on UI GreenMetric World University Rankings for Polytechnics in Indonesia, held in September 2023. Contributed to promoting sustainable practices in line with UI GreenMetric's mission.",
       image: "/ui.png",
       links: [],
     },
@@ -353,7 +353,7 @@ export const DATA = {
       title: "Kompetisi Mahasiswa Informatika Politeknik Nasional VI",
       dates: "May 2024",
       location: "Depok",
-      description: "",
+      description: "Participated in the National Polytechnic Informatics Student Competition (KMIPN) in the cybersecurity category",
       image: "/kmipn.png",
       links: [],
     },
@@ -361,7 +361,7 @@ export const DATA = {
       title: "COMPFEST 15 IT Business Competition",
       dates: "August 2023",
       location: "Depok",
-      description: "",
+      description: "Competed in the Business-IT Case Competition (BizzIT), designing innovative solutions for business cases using information technology.",
       icon: "public",
       image: "/compfest.png",
       links: [],
