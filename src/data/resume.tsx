@@ -230,128 +230,104 @@ export const DATA = {
     {
       title: "Tic Tac Toe Game",
       dates: "May 2024",
-      description:
-        "Developed a virtual reality application allowing users to see themselves in third person.",
-      image:
-        "https://pub-83c5db439b40468498f97946200806f7.r2.dev/hackline/hack-the-north.png",
-      mlh: "https://s3.amazonaws.com/logged-assets/trust-badge/2017/white.svg",
+      description: "Developed a web-based Tic Tac Toe game using the React framework.",
+      image: "/tictactoe.png",
       links: [
         {
           title: "Source",
           icon: <Icons.github className="h-4 w-4" />,
-          href: "https://github.com/ShareShip/ShareShip",
+          href: "https://github.com/edoaryah/TicTacToe-Game",
         },
       ],
     },
     {
       title: "Interactive Birthday Card",
       dates: "February 2024",
-      description:
-        "Developed an open platform for people shipping items to same place to combine shipping costs and save money.",
-      image:
-        "https://pub-83c5db439b40468498f97946200806f7.r2.dev/hackline/hack-the-6ix.jpg",
-      mlh: "https://s3.amazonaws.com/logged-assets/trust-badge/2017/white.svg",
+      description: "Created an interactive birthday card website using HTML, CSS, and JavaScript, featuring a birthday cake with candles that can be blown out.",
+      image: "/birthday.png",
       links: [
         {
           title: "Source",
           icon: <Icons.github className="h-4 w-4" />,
-          href: "https://github.com/ShareShip/ShareShip",
+          href: "https://github.com/edoaryah/happybirthday",
         },
       ],
     },
     {
       title: "Mobile Programming Practicum",
       dates: "August - December 2023",
-      description:
-        "Developed a mobile application which communcicates a victims medical data from inside an ambulance to doctors at hospital.",
-      icon: "public",
-      image:
-        "https://pub-83c5db439b40468498f97946200806f7.r2.dev/hackline/firstnet.png",
+      description: "Built various mobile applications using Flutter to fulfill the requirements of a mobile programming course.",
+      image: "/flutter.png",
       links: [
         {
           title: "Source",
           icon: <Icons.github className="h-4 w-4" />,
-          href: "https://github.com/ShareShip/ShareShip",
+          href: "https://github.com/edoaryah/PemrogramanMobile",
         },
       ],
     },
     {
       title: "Decision Support System",
       dates: "December 2023",
-      location: "San Francisco, California",
-      description:
-        "Developed a web application which aggregates social media data regarding cryptocurrencies and predicts future prices.",
-      image:
-        "https://pub-83c5db439b40468498f97946200806f7.r2.dev/hackline/developer-week.jpg",
+      description: "Developed a decision support system using Python, combining the AHP and TOPSIS methods.",
+      image: "/dss.png",
       links: [
         {
           title: "Source",
           icon: <Icons.github className="h-4 w-4" />,
-          href: "https://github.com/ShareShip/ShareShip",
+          href: "https://github.com/edoaryah/DSS-AHP-TOPSIS",
         },
       ],
     },
     {
       title: "Association Rules Program",
       dates: "November 2023",
-      description:
-        "Developed a mobile application which allocates a daily carbon emission allowance to users to move towards a sustainable environment.",
-      image:
-        "https://pub-83c5db439b40468498f97946200806f7.r2.dev/hackline/hack-davis.png",
-      win: "Best Data Hack",
-      mlh: "https://s3.amazonaws.com/logged-assets/trust-badge/2018/white.svg",
+      description: "Created a program using Python to implement association rules with the Apriori algorithm.",
+      image: "/datamining.png",
       links: [
         {
           title: "Source",
           icon: <Icons.github className="h-4 w-4" />,
-          href: "https://github.com/ShareShip/ShareShip",
+          href: "https://github.com/edoaryah/Association-Rules-Python",
         },
       ],
     },
     {
       title: "Emoji Picker iOS",
       dates: "September 2023",
-      description:
-        "Developed a mobile application which delivers university campus wide events in real time to all students.",
-      image:
-        "https://pub-83c5db439b40468498f97946200806f7.r2.dev/hackline/hack-the-north.png",
-      mlh: "https://s3.amazonaws.com/logged-assets/trust-badge/2019/mlh-trust-badge-2019-white.svg",
+      description: "Developed a simple mobile application using Swift for picking emojis.",
+      image: "/ios.png",
       links: [
         {
           title: "Source",
           icon: <Icons.github className="h-4 w-4" />,
-          href: "https://github.com/ShareShip/ShareShip",
+          href: "https://github.com/edoaryah/EmojiPicker-iOS",
         },
       ],
     },
     {
       title: "Eramart Cashier System",
       dates: "December 2022",
-      description:
-        "Developed a mobile application which delivered bedtime stories to children using augmented reality.",
-      image:
-        "https://pub-83c5db439b40468498f97946200806f7.r2.dev/hackline/hack-western.png",
-      mlh: "https://s3.amazonaws.com/logged-assets/trust-badge/2019/mlh-trust-badge-2019-white.svg",
+      description: "Created a cashier application for the Eramart minimarket using Java, complete with receipt printing features.",
+      image: "/eramart.png",
       links: [
         {
           title: "Source",
           icon: <Icons.github className="h-4 w-4" />,
-          href: "https://github.com/ShareShip/ShareShip",
+          href: "https://github.com/edoaryah/AplikasiKasirEramart",
         },
       ],
     },
     {
       title: "Beritaku",
       dates: "July 2022",
-      description:
-        "Developed a blockchain application for doctors and pharmacists to perform trustless transactions and prevent overdosage in patients.",
-      image:
-        "https://pub-83c5db439b40468498f97946200806f7.r2.dev/hackline/eth-waterloo.png",
+      description: "Developed a news portal website using HTML, CSS, JavaScript, and PHP, complete with news management features for administrators.",
+      image: "/news.png",
       links: [
         {
           title: "Source",
           icon: <Icons.github className="h-4 w-4" />,
-          href: "https://github.com/ShareShip/ShareShip",
+          href: "https://github.com/edoaryah/Beritaku",
         },
       ],
     },
@@ -361,43 +337,33 @@ export const DATA = {
       title: "Himpunan Mahasiswa Teknologi Informasi",
       dates: "December 2021 - February 2023",
       location: "Malang",
-      description:
-        "Developed a mobile application which delivered bedtime stories to children using augmented reality.",
-      image:
-        "https://pub-83c5db439b40468498f97946200806f7.r2.dev/hackline/hack-western.png",
-      mlh: "https://s3.amazonaws.com/logged-assets/trust-badge/2019/mlh-trust-badge-2019-white.svg",
+      description: "",
+      image: "/hmti.png",
       links: [],
     },
     {
       title: "UI GreenCityMetric",
       dates: "September 2023",
       location: "Malang",
-      description:
-        "Developed a mobile application which delivers university campus wide events in real time to all students.",
-      image:
-        "https://pub-83c5db439b40468498f97946200806f7.r2.dev/hackline/hack-the-north.png",
-      mlh: "https://s3.amazonaws.com/logged-assets/trust-badge/2019/mlh-trust-badge-2019-white.svg",
+      description: "",
+      image: "/ui.png",
       links: [],
     },
     {
       title: "Kompetisi Mahasiswa Informatika Politeknik Nasional VI",
       dates: "May 2024",
       location: "Depok",
-      description:
-        "Developed a web application which aggregates social media data regarding cryptocurrencies and predicts future prices.",
-      image:
-        "https://pub-83c5db439b40468498f97946200806f7.r2.dev/hackline/developer-week.jpg",
+      description: "",
+      image: "/kmipn.png",
       links: [],
     },
     {
       title: "COMPFEST 15 IT Business Competition",
       dates: "August 2023",
       location: "Depok",
-      description:
-        "Developed a mobile application which communcicates a victims medical data from inside an ambulance to doctors at hospital.",
+      description: "",
       icon: "public",
-      image:
-        "https://pub-83c5db439b40468498f97946200806f7.r2.dev/hackline/firstnet.png",
+      image: "/compfest.png",
       links: [],
     },
   ]
