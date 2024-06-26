@@ -58,19 +58,19 @@ export const DATA = {
       start: "Mar 2024",
       end: "Jun 2024",
       description:
-        "Assisted the safety supervisor in developing a mobile survey application using Flutter to monitor the sleep hours of 200+ employees. Troubleshot hardware and software issues, resolving 90% of problems for over 30 employees. Configured various network devices, ensuring smooth and stable connectivity for over 100 devices. Developed IT documentation, enhancing new user training efficiency by 25% and reducing adaptation time by 20%.",
+        "Developed a mobile application using Flutter to assist safety supervisors monitor the sleep hours of over 200 employees. The app enhances workplace safety and productivity by tracking sleep patterns, providing real-time alerts, and generating detailed reports for informed decision-making.",
     },
     {
       company: "PT Revolusi Cita Edukasi",
       badges: [],
       href: "https://www.revou.co",
       location: "Remote",
-      title: "Front End Engineer",
+      title: "Front End Engineer (Remote)",
       logoUrl: "/revou.svg",
       start: "Feb 2024",
       end: "Jun 2024",
       description:
-        "Implemented a custom Kubernetes controller in Go to automate the deployment of MySQL and ProxySQL custom resources in order to enable 2,000+ internal developers to instantly deploy their app databases to production. Wrote several scripts in Go to automate MySQL database failovers while maintaining master-slave replication topologies and keeping Zookeeper nodes consistent with changes.",
+        "Developed a dashboard website designed to display data visualizations derived from the analysis of bicycle sales in Europe. This Capstone Project was part of the RevoU partnership within the Kampus Merdeka Batch 6 program and was collaboratively executed by Team 8 Semarang.",
     },
     {
       company: "PT Adma Digital Solusi",
@@ -82,7 +82,7 @@ export const DATA = {
       start: "Sep 2023",
       end: "Dec 2023",
       description:
-        "Architected and wrote the entire MVP of the GeForce Now Cloud Gaming internal admin and A/B testing dashboard using React, Redux, TypeScript, and Python.",
+        "Developed the backend for the UMKM Xpress project, a Laravel-based web application designed to support MSMEs in enhancing operational efficiency. Successfully created over 10 APIs and conducted website maintenance, including server configuration and performance monitoring.",
     },
   ],
   education: [
@@ -176,10 +176,10 @@ export const DATA = {
     {
       title: "UMKM Xpress",
       href: "https://courier.umkmxpress.id/login",
-      dates: "April 2023 - September 2023",
+      dates: "Sep 2023 - Dec 2023",
       active: true,
       description:
-        "UMKM Xpress is a Laravel-based web application developed to support micro, small, and medium enterprises (MSMEs) in enhancing their operational efficiency. The project integrates various modern technologies to facilitate data management, user interaction, and third-party service integration.",
+        "UMKM Xpress is a Laravel-based web application developed to support MSMEs in enhancing their operational efficiency. The project integrates various modern technologies to facilitate data management, user interaction, and third-party service integration.",
       technologies: [
         "Laravel",
         "MySQL",
@@ -201,7 +201,7 @@ export const DATA = {
     {
       title: "SIREMA",
       href: "https://automatic.chat",
-      dates: "Oct 2023 - Dec 2024",
+      dates: "Sep 2023 - Dec 2023",
       active: true,
       description:
         "Developed an AI Customer Support Chatbot which automatically responds to customer support tickets using the latest GPT models.",
@@ -228,107 +228,8 @@ export const DATA = {
   ],
   hackathons: [
     {
-      title: "Eramart Cashier System",
-      dates: "November 23rd - 25th, 2018",
-      location: "London, Ontario",
-      description:
-        "Developed a mobile application which delivered bedtime stories to children using augmented reality.",
-      image:
-        "https://pub-83c5db439b40468498f97946200806f7.r2.dev/hackline/hack-western.png",
-      mlh: "https://s3.amazonaws.com/logged-assets/trust-badge/2019/mlh-trust-badge-2019-white.svg",
-      links: [],
-    },
-    {
-      title: "Emoji Picker iOS",
-      dates: "September 14th - 16th, 2018",
-      location: "Waterloo, Ontario",
-      description:
-        "Developed a mobile application which delivers university campus wide events in real time to all students.",
-      image:
-        "https://pub-83c5db439b40468498f97946200806f7.r2.dev/hackline/hack-the-north.png",
-      mlh: "https://s3.amazonaws.com/logged-assets/trust-badge/2019/mlh-trust-badge-2019-white.svg",
-      links: [],
-    },
-    {
-      title: "Mobile Programming Practicum",
-      dates: "March 23rd - 24th, 2018",
-      location: "San Francisco, California",
-      description:
-        "Developed a mobile application which communcicates a victims medical data from inside an ambulance to doctors at hospital.",
-      icon: "public",
-      image:
-        "https://pub-83c5db439b40468498f97946200806f7.r2.dev/hackline/firstnet.png",
-      links: [],
-    },
-    {
-      title: "Decision Support System",
-      dates: "February 3rd - 4th, 2018",
-      location: "San Francisco, California",
-      description:
-        "Developed a web application which aggregates social media data regarding cryptocurrencies and predicts future prices.",
-      image:
-        "https://pub-83c5db439b40468498f97946200806f7.r2.dev/hackline/developer-week.jpg",
-      links: [
-        {
-          title: "Github",
-          icon: <Icons.github className="h-4 w-4" />,
-          href: "https://github.com/cryptotrends/cryptotrends",
-        },
-      ],
-    },
-    {
-      title: "Association Rules Program",
-      dates: "January 20th - 21st, 2018",
-      location: "Davis, California",
-      description:
-        "Developed a mobile application which allocates a daily carbon emission allowance to users to move towards a sustainable environment.",
-      image:
-        "https://pub-83c5db439b40468498f97946200806f7.r2.dev/hackline/hack-davis.png",
-      win: "Best Data Hack",
-      mlh: "https://s3.amazonaws.com/logged-assets/trust-badge/2018/white.svg",
-      links: [
-        {
-          title: "Devpost",
-          icon: <Icons.globe className="h-4 w-4" />,
-          href: "https://devpost.com/software/my6footprint",
-        },
-        {
-          title: "ML",
-          icon: <Icons.github className="h-4 w-4" />,
-          href: "https://github.com/Wallet6/my6footprint-machine-learning",
-        },
-        {
-          title: "iOS",
-          icon: <Icons.github className="h-4 w-4" />,
-          href: "https://github.com/Wallet6/CarbonWallet",
-        },
-        {
-          title: "Server",
-          icon: <Icons.github className="h-4 w-4" />,
-          href: "https://github.com/Wallet6/wallet6-server",
-        },
-      ],
-    },
-    {
-      title: "Beritaku",
-      dates: "October 13th - 15th, 2017",
-      location: "Waterloo, Ontario",
-      description:
-        "Developed a blockchain application for doctors and pharmacists to perform trustless transactions and prevent overdosage in patients.",
-      image:
-        "https://pub-83c5db439b40468498f97946200806f7.r2.dev/hackline/eth-waterloo.png",
-      links: [
-        {
-          title: "Organization",
-          icon: <Icons.github className="h-4 w-4" />,
-          href: "https://github.com/ethdocnet",
-        },
-      ],
-    },
-    {
-      title: "Portfolio Website",
-      dates: "September 15th - 17th, 2017",
-      location: "Waterloo, Ontario",
+      title: "Tic Tac Toe Game",
+      dates: "May 2024",
       description:
         "Developed a virtual reality application allowing users to see themselves in third person.",
       image:
@@ -336,21 +237,15 @@ export const DATA = {
       mlh: "https://s3.amazonaws.com/logged-assets/trust-badge/2017/white.svg",
       links: [
         {
-          title: "Streamer Source",
+          title: "Source",
           icon: <Icons.github className="h-4 w-4" />,
-          href: "https://github.com/justinmichaud/htn2017",
-        },
-        {
-          title: "Client Source",
-          icon: <Icons.github className="h-4 w-4" />,
-          href: "https://github.com/dillionverma/RTSPClient",
+          href: "https://github.com/ShareShip/ShareShip",
         },
       ],
     },
     {
       title: "Interactive Birthday Card",
-      dates: "August 26th - 27th, 2017",
-      location: "Toronto, Ontario",
+      dates: "February 2024",
       description:
         "Developed an open platform for people shipping items to same place to combine shipping costs and save money.",
       image:
@@ -362,10 +257,101 @@ export const DATA = {
           icon: <Icons.github className="h-4 w-4" />,
           href: "https://github.com/ShareShip/ShareShip",
         },
+      ],
+    },
+    {
+      title: "Mobile Programming Practicum",
+      dates: "August - December 2023",
+      description:
+        "Developed a mobile application which communcicates a victims medical data from inside an ambulance to doctors at hospital.",
+      icon: "public",
+      image:
+        "https://pub-83c5db439b40468498f97946200806f7.r2.dev/hackline/firstnet.png",
+      links: [
         {
-          title: "Site",
-          icon: <Icons.globe className="h-4 w-4" />,
-          href: "https://share-ship.herokuapp.com/",
+          title: "Source",
+          icon: <Icons.github className="h-4 w-4" />,
+          href: "https://github.com/ShareShip/ShareShip",
+        },
+      ],
+    },
+    {
+      title: "Decision Support System",
+      dates: "December 2023",
+      location: "San Francisco, California",
+      description:
+        "Developed a web application which aggregates social media data regarding cryptocurrencies and predicts future prices.",
+      image:
+        "https://pub-83c5db439b40468498f97946200806f7.r2.dev/hackline/developer-week.jpg",
+      links: [
+        {
+          title: "Source",
+          icon: <Icons.github className="h-4 w-4" />,
+          href: "https://github.com/ShareShip/ShareShip",
+        },
+      ],
+    },
+    {
+      title: "Association Rules Program",
+      dates: "November 2023",
+      description:
+        "Developed a mobile application which allocates a daily carbon emission allowance to users to move towards a sustainable environment.",
+      image:
+        "https://pub-83c5db439b40468498f97946200806f7.r2.dev/hackline/hack-davis.png",
+      win: "Best Data Hack",
+      mlh: "https://s3.amazonaws.com/logged-assets/trust-badge/2018/white.svg",
+      links: [
+        {
+          title: "Source",
+          icon: <Icons.github className="h-4 w-4" />,
+          href: "https://github.com/ShareShip/ShareShip",
+        },
+      ],
+    },
+    {
+      title: "Emoji Picker iOS",
+      dates: "September 2023",
+      description:
+        "Developed a mobile application which delivers university campus wide events in real time to all students.",
+      image:
+        "https://pub-83c5db439b40468498f97946200806f7.r2.dev/hackline/hack-the-north.png",
+      mlh: "https://s3.amazonaws.com/logged-assets/trust-badge/2019/mlh-trust-badge-2019-white.svg",
+      links: [
+        {
+          title: "Source",
+          icon: <Icons.github className="h-4 w-4" />,
+          href: "https://github.com/ShareShip/ShareShip",
+        },
+      ],
+    },
+    {
+      title: "Eramart Cashier System",
+      dates: "December 2022",
+      description:
+        "Developed a mobile application which delivered bedtime stories to children using augmented reality.",
+      image:
+        "https://pub-83c5db439b40468498f97946200806f7.r2.dev/hackline/hack-western.png",
+      mlh: "https://s3.amazonaws.com/logged-assets/trust-badge/2019/mlh-trust-badge-2019-white.svg",
+      links: [
+        {
+          title: "Source",
+          icon: <Icons.github className="h-4 w-4" />,
+          href: "https://github.com/ShareShip/ShareShip",
+        },
+      ],
+    },
+    {
+      title: "Beritaku",
+      dates: "July 2022",
+      description:
+        "Developed a blockchain application for doctors and pharmacists to perform trustless transactions and prevent overdosage in patients.",
+      image:
+        "https://pub-83c5db439b40468498f97946200806f7.r2.dev/hackline/eth-waterloo.png",
+      links: [
+        {
+          title: "Source",
+          icon: <Icons.github className="h-4 w-4" />,
+          href: "https://github.com/ShareShip/ShareShip",
         },
       ],
     },
@@ -373,8 +359,8 @@ export const DATA = {
   organisations: [
     {
       title: "Himpunan Mahasiswa Teknologi Informasi",
-      dates: "November 23rd - 25th, 2018",
-      location: "London, Ontario",
+      dates: "December 2021 - February 2023",
+      location: "Malang",
       description:
         "Developed a mobile application which delivered bedtime stories to children using augmented reality.",
       image:
@@ -383,9 +369,9 @@ export const DATA = {
       links: [],
     },
     {
-      title: "Volunteer",
-      dates: "September 14th - 16th, 2018",
-      location: "Waterloo, Ontario",
+      title: "UI GreenCityMetric",
+      dates: "September 2023",
+      location: "Malang",
       description:
         "Developed a mobile application which delivers university campus wide events in real time to all students.",
       image:
@@ -394,31 +380,25 @@ export const DATA = {
       links: [],
     },
     {
+      title: "Kompetisi Mahasiswa Informatika Politeknik Nasional VI",
+      dates: "May 2024",
+      location: "Depok",
+      description:
+        "Developed a web application which aggregates social media data regarding cryptocurrencies and predicts future prices.",
+      image:
+        "https://pub-83c5db439b40468498f97946200806f7.r2.dev/hackline/developer-week.jpg",
+      links: [],
+    },
+    {
       title: "COMPFEST 15 IT Business Competition",
-      dates: "March 23rd - 24th, 2018",
-      location: "San Francisco, California",
+      dates: "August 2023",
+      location: "Depok",
       description:
         "Developed a mobile application which communcicates a victims medical data from inside an ambulance to doctors at hospital.",
       icon: "public",
       image:
         "https://pub-83c5db439b40468498f97946200806f7.r2.dev/hackline/firstnet.png",
       links: [],
-    },
-    {
-      title: "Kompetisi Mahasiswa Informatika Politeknik Nasional VI",
-      dates: "February 3rd - 4th, 2018",
-      location: "San Francisco, California",
-      description:
-        "Developed a web application which aggregates social media data regarding cryptocurrencies and predicts future prices.",
-      image:
-        "https://pub-83c5db439b40468498f97946200806f7.r2.dev/hackline/developer-week.jpg",
-      links: [
-        {
-          title: "Github",
-          icon: <Icons.github className="h-4 w-4" />,
-          href: "https://github.com/cryptotrends/cryptotrends",
-        },
-      ],
     },
   ]
 } as const;

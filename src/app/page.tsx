@@ -127,7 +127,7 @@ export default function Page() {
             <div className="flex flex-col items-center justify-center space-y-4 text-center">
               <div className="space-y-2">
                 <div className="inline-block rounded-lg bg-foreground text-background px-3 py-1 text-sm">
-                  My Projects
+                  Featured Projects
                 </div>
                 <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">
                   Check out my latest work
@@ -168,18 +168,13 @@ export default function Page() {
             <div className="flex flex-col items-center justify-center space-y-4 text-center">
               <div className="space-y-2">
                 <div className="inline-block rounded-lg bg-foreground text-background px-3 py-1 text-sm">
-                  Projects
+                  All Projects
                 </div>
                 <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">
-                  I like building things
+                  I enjoy building things
                 </h2>
                 <p className="text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-                  During my time in university, I attended{" "}
-                  {DATA.hackathons.length}+ hackathons. People from around the
-                  country would come together and build incredible things in 2-3
-                  days. It was eye-opening to see the endless possibilities
-                  brought to life by a group of motivated and passionate
-                  individuals.
+                  Here is a comprehensive collection of all my projects, showcasing my diverse skills and experience across various technologies and platforms.
                 </p>
               </div>
             </div>
@@ -194,7 +189,6 @@ export default function Page() {
                   <HackathonCard
                     title={project.title}
                     description={project.description}
-                    location={project.location}
                     dates={project.dates}
                     image={project.image}
                     links={project.links}
@@ -215,14 +209,10 @@ export default function Page() {
                   Experiences
                 </div>
                 <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">
-                  I like building things
+                  My Journey So Far
                 </h2>
                 <p className="text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-                  During my time in university, I attended {DATA.organisations.length}+
-                  hackathons. People from around the country would come together and
-                  build incredible things in 2-3 days. It was eye-opening to see the
-                  endless possibilities brought to life by a group of motivated and
-                  passionate individuals.
+                  From volunteering and participating in competitions to being an active member of various organizations, these experiences have shaped my skills and career. Here&apos;s a glimpse of my journey.
                 </p>
               </div>
             </div>
@@ -261,9 +251,7 @@ export default function Page() {
                 Let&apos;s Collaborate with Me
               </h2>
               <p className="mx-auto max-w-[600px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-                Want to chat? Just shoot me a dm with a direct question on twitter
-                and I&apos;ll respond whenever I can. I will ignore all
-                soliciting.
+                I&apos;m eager to connect and explore opportunities for collaboration. If you&apos;re looking for a dedicated and skilled professional, let&apos;s work together and achieve great results!
               </p>
             </div>
           </BlurFade>
