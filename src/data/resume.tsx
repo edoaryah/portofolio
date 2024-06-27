@@ -142,9 +142,7 @@ export const DATA = {
           icon: <Icons.github className="size-3" />,
         },
       ],
-      image: "",
-      video:
-        "/project1.mp4",
+      image: "/houseofpet.png",
     },
     {
       title: "Bike Sales Dashboard",
