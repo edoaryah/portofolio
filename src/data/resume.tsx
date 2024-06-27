@@ -169,7 +169,6 @@ export const DATA = {
         },
       ],
       image: "",
-      video: "/project2.mp4",
     },
     {
       title: "UMKM Xpress",
@@ -194,7 +193,6 @@ export const DATA = {
         },
       ],
       image: "",
-      video: "https://cdn.llm.report/openai-demo.mp4",
     },
     {
       title: "SIREMA",
@@ -219,7 +217,6 @@ export const DATA = {
         },
       ],
       image: "",
-      video: "https://pub-83c5db439b40468498f97946200806f7.r2.dev/automatic-chat.mp4",
     },
   ],
   hackathons: [
