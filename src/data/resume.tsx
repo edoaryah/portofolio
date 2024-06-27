@@ -3,14 +3,13 @@ import { Icons } from "@/components/icons";
 export const DATA = {
   name: "Edo Arya",
   initials: "EA",
-  url: "https://dillion.io",
+  url: "https://edoarya.vercel.app",
   location: "Malang, East Java",
   locationLink: "https://www.google.com/maps/place/sanfrancisco",
-  description:
-    "Currently exploring software engineering opportunities with a strong focus on backend development.",
-  summary:
-    "Information Systems student at the [State Polytechnic of Malang](https://www.polinema.ac.id/) with work experience in the field of software engineering and networking. Possesses hands-on experience as a backend and frontend engineer for websites and mobile applications. I have strong interpersonal skills, including excellent communication, effective teamwork, high initiative, and strong analytical abilities. I am seeking to further develop my expertise in software engineering.",
+  description: "Currently exploring software engineering opportunities with a strong focus on backend development.",
+  summary: "Information Systems student at the [State Polytechnic of Malang](https://www.polinema.ac.id/) with work experience in the field of software engineering and networking. Possesses hands-on experience as a backend and frontend engineer for websites and mobile applications. I have strong interpersonal skills, including excellent communication, effective teamwork, high initiative, and strong analytical abilities. I am seeking to further develop my expertise in software engineering.",
   avatarUrl: "/profile.JPG",
+
   skills: [
     "API Integration",
     "RESTful API",
@@ -28,6 +27,7 @@ export const DATA = {
     "Git Version Control",
     "Odoo",
   ],
+
   contact: {
     email: "edoarya2002@gmail.com",
     tel: "+6281231994646",
@@ -52,39 +52,34 @@ export const DATA = {
       company: "PT Hexindo Adiperkasa Tbk",
       href: "https://www.hexindo-tbk.co.id/id/",
       badges: [],
-      location: "Remote",
       title: "IT Support",
       logoUrl: "/hexindo.png",
       start: "Mar 2024",
       end: "Jun 2024",
-      description:
-        "Developed a mobile application using Flutter to assist safety supervisors monitor the sleep hours of over 200 employees. The app enhances workplace safety and productivity by tracking sleep patterns, providing real-time alerts, and generating detailed reports for informed decision-making.",
+      description: "Developed a mobile application using Flutter to assist safety supervisors monitor the sleep hours of over 200 employees. The app enhances workplace safety and productivity by tracking sleep patterns, providing real-time alerts, and generating detailed reports for informed decision-making.",
     },
     {
       company: "PT Revolusi Cita Edukasi",
       badges: [],
       href: "https://www.revou.co",
-      location: "Remote",
       title: "Front End Engineer (Remote)",
       logoUrl: "/revou.svg",
       start: "Feb 2024",
       end: "Jun 2024",
-      description:
-        "Developed a dashboard website designed to display data visualizations derived from the analysis of bicycle sales in Europe. This Capstone Project was part of the RevoU partnership within the Kampus Merdeka Batch 6 program and was collaboratively executed by Team 8 Semarang.",
+      description: "Developed a dashboard website designed to display data visualizations derived from the analysis of bicycle sales in Europe. This Capstone Project was part of the RevoU partnership within the Kampus Merdeka Batch 6 program and was collaboratively executed by Team 8 Semarang.",
     },
     {
       company: "PT Adma Digital Solusi",
       href: "https://admasolusi.com/",
       badges: [],
-      location: "Santa Clara, CA",
       title: "Back End Engineer",
       logoUrl: "/ads.png",
       start: "Sep 2023",
       end: "Dec 2023",
-      description:
-        "Developed the backend for the UMKM Xpress project, a Laravel-based web application designed to support MSMEs in enhancing operational efficiency. Successfully created over 10 APIs and conducted website maintenance, including server configuration and performance monitoring.",
+      description: "Developed the backend for the UMKM Xpress project, a Laravel-based web application designed to support MSMEs in enhancing operational efficiency. Successfully created over 10 APIs and conducted website maintenance, including server configuration and performance monitoring.",
     },
   ],
+
   education: [
     {
       school: "State Polytechnic of Malang",
@@ -119,14 +114,14 @@ export const DATA = {
       end: "2021",
     },
   ],
+
   projects: [
     {
       title: "Queue Management System",
       href: "https://github.com/edoaryah/House-of-Pet",
       dates: "Feb 2023 - Jun 2023",
       active: true,
-      description:
-        "As the lead Full Stack Developer, I spearheaded the development of a sophisticated queue management system for the ['House of Pet Malang'](https://www.instagram.com/houseofpetmalang/?hl=en) veterinary clinic. This system was seamlessly integrated with the [Midtrans Payment Gateway](https://midtrans.com/en) to ensure smooth and efficient transactions.",
+      description: "As the lead Full Stack Developer, I spearheaded the development of a sophisticated queue management system for the ['House of Pet Malang'](https://www.instagram.com/houseofpetmalang/?hl=en) veterinary clinic. This system was seamlessly integrated with the [Midtrans Payment Gateway](https://midtrans.com/en) to ensure smooth and efficient transactions.",
       technologies: [
         "Laravel",
         "Midtrans",
@@ -146,11 +141,10 @@ export const DATA = {
     },
     {
       title: "Bike Sales Dashboard",
-      href: "https://magicui.design",
+      href: "https://km-feb24-semarang-8-blush.vercel.app/",
       dates: "Apr 2024 - Jun 2024",
       active: true,
-      description:
-        "Developed as part of the RevoU Kampus Merdeka Batch 6 program, this website showcases data visualizations from a European bicycle sales. Developed collaboratively by Team 8 Semarang, it provides insights into sales trends and customer behavior, aiding decision-making processes.",
+      description: "Developed as part of the RevoU Kampus Merdeka Batch 6 program, this website showcases data visualizations from a European bicycle sales. Developed collaboratively by Team 8 Semarang, it provides insights into sales trends and customer behavior, aiding decision-making processes.",
       technologies: [
         "HTML",
         "CSS",
@@ -175,8 +169,7 @@ export const DATA = {
       href: "https://courier.umkmxpress.id/login",
       dates: "Sep 2023 - Dec 2023",
       active: true,
-      description:
-        "UMKM Xpress is a Laravel-based web application developed to support MSMEs in enhancing their operational efficiency. The project integrates various modern technologies to facilitate data management, user interaction, and third-party service integration.",
+      description: "UMKM Xpress is a Laravel-based web application developed to support MSMEs in enhancing their operational efficiency. The project integrates various modern technologies to facilitate data management, user interaction, and third-party service integration.",
       technologies: [
         "Laravel",
         "MySQL",
@@ -196,7 +189,7 @@ export const DATA = {
     },
     {
       title: "SIREMA",
-      href: "https://automatic.chat",
+      href: "https://github.com/edoaryah/Flutter-Laravel-SurveyApp",
       dates: "Sep 2023 - Dec 2023",
       active: true,
       description: "SIREMA (Sistem Rekomendasi Magang) is an integrated system designed for the [Information Technology Department](https://jti.polinema.ac.id/) at Politeknik Negeri Malang. As a full stack developer, I created a mobile app that allows lecturers to access student dashboards and receive feedback, while students can submit campus surveys, incident reports, and access personalized internship recommendations.",
