@@ -168,7 +168,7 @@ export const DATA = {
           icon: <Icons.github className="size-3" />,
         },
       ],
-      image: "",
+      image: "/revou.png",
     },
     {
       title: "UMKM Xpress",
@@ -192,7 +192,7 @@ export const DATA = {
           icon: <Icons.globe className="size-3" />,
         },
       ],
-      image: "",
+      image: "/umkmxpress.png",
     },
     {
       title: "SIREMA",
@@ -216,7 +216,7 @@ export const DATA = {
           icon: <Icons.github className="size-3" />,
         },
       ],
-      image: "",
+      image: "/sirema.png",
     },
   ],
   hackathons: [
