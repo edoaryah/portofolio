@@ -9,7 +9,7 @@ import {
 } from "@/components/ui/tooltip";
 import { DATA } from "@/data/resume";
 import { cn } from "@/lib/utils";
-import { HomeIcon, NotebookIcon, StickyNoteIcon} from "lucide-react";
+import { HomeIcon, StickyNoteIcon } from "lucide-react";
 import Link from "next/link";
 
 export default function Navbar() {
