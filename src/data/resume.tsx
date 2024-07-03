@@ -6,8 +6,8 @@ export const DATA = {
   url: "https://edoarya.vercel.app",
   location: "Malang, East Java",
   locationLink: "https://www.google.com/maps/place/sanfrancisco",
-  description: "Currently exploring software engineering opportunities with a strong focus on backend development.",
-  summary: "Information Systems student at the [State Polytechnic of Malang](https://www.polinema.ac.id/) with work experience in the field of software engineering and networking. Possesses hands-on experience as a backend and frontend engineer for websites and mobile applications. I have strong interpersonal skills, including excellent communication, effective teamwork, high initiative, and strong analytical abilities. I am seeking to further develop my expertise in software engineering.",
+  description: "Currently exploring software development opportunities with a strong focus on backend development.",
+  summary: "Information Systems student at the [State Polytechnic of Malang](https://www.polinema.ac.id/) with work experience in software development and networking. Possesses hands-on experience as a backend and frontend developer for websites and mobile applications. I have strong interpersonal skills, including excellent communication, effective teamwork, high initiative, and strong analytical abilities. I am seeking to further develop my expertise in software development.",
   avatarUrl: "/profile.JPG",
 
   skills: [

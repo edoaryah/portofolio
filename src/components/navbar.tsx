@@ -39,7 +39,7 @@ export default function Navbar() {
           <Tooltip>
             <TooltipTrigger asChild>
               <Link
-                href="https://drive.google.com/file/d/1Hk1E9Um2GgM5-pU4ls7kshKVIrFUTihx/view?usp=sharing"
+                href="https://drive.google.com/file/d/1ZxIhFBzGiibWODdRa4N3-SAS1R5Ze3MR/view?usp=sharing"
                 className={cn(
                   buttonVariants({ variant: "ghost", size: "icon" }),
                   "size-12"
