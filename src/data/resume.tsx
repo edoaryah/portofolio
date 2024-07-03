@@ -322,7 +322,7 @@ export const DATA = {
     {
       title: "Himpunan Mahasiswa Teknologi Informasi",
       dates: "December 2021 - February 2023",
-      location: "Malang",
+      location: "Politeknik Negeri Malang",
       description: "Served as an organizing committee member in the Interest and Talent Division. Organized and coordinated various projects and events within the student association",
       image: "/hmti.png",
       links: [],
@@ -330,7 +330,7 @@ export const DATA = {
     {
       title: "UI GreenCityMetric",
       dates: "September 2023",
-      location: "Malang",
+      location: "Politeknik Negeri Malang",
       description: "Volunteered at the National Workshop on UI GreenMetric World University Rankings for Polytechnics in Indonesia, held in September 2023. Contributed to promoting sustainable practices in line with UI GreenMetric's mission.",
       image: "/ui.png",
       links: [],
@@ -338,7 +338,7 @@ export const DATA = {
     {
       title: "Kompetisi Mahasiswa Informatika Politeknik Nasional VI",
       dates: "May 2024",
-      location: "Depok",
+      location: "Politeknik Negeri Jakarta",
       description: "Participated in the National Polytechnic Informatics Student Competition (KMIPN) in the cybersecurity category",
       image: "/kmipn.png",
       links: [],
@@ -346,7 +346,7 @@ export const DATA = {
     {
       title: "COMPFEST 15 IT Business Competition",
       dates: "August 2023",
-      location: "Depok",
+      location: "Universitas Indonesia",
       description: "Competed in the Business-IT Case Competition (BizzIT), designing innovative solutions for business cases using information technology.",
       icon: "public",
       image: "/compfest.png",
