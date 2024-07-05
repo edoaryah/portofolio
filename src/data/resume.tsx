@@ -7,7 +7,7 @@ export const DATA = {
   location: "Malang, East Java",
   locationLink: "https://www.google.com/maps/place/sanfrancisco",
   description: "Currently exploring software development opportunities with a strong focus on backend development.",
-  summary: "Information Systems student at the [State Polytechnic of Malang](https://www.polinema.ac.id/) with work experience in software development and networking. Possesses hands-on experience as a backend and frontend developer for websites and mobile applications. I have strong interpersonal skills, including excellent communication, effective teamwork, high initiative, and strong analytical abilities. I am seeking to further develop my expertise in software development.",
+  summary: "Information Systems student at the State Polytechnic of Malang with work experience in software development and networking. Possesses hands-on experience as a backend and frontend developer for websites and mobile applications. I have strong interpersonal skills, including excellent communication, effective teamwork, high initiative, and strong analytical abilities. I am seeking to further develop my expertise in software development.",
   avatarUrl: "/profile.JPG",
 
   skills: [
@@ -100,7 +100,7 @@ export const DATA = {
     {
       school: "Samsung Innovation Campus",
       href: "https://csr.samsung.com/id/programViewSic.do",
-      degree: "ICT Program",
+      degree: "AI & IoT Product Development Bootcamp",
       logoUrl: "/sic.png",
       start: "2024",
       end: "2024",
