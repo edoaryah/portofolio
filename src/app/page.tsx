@@ -32,7 +32,7 @@ export default function Page() {
                 text={DATA.description}
               />
               <BlurFade delay={BLUR_FADE_DELAY}>
-                <Link href="https://drive.google.com/file/d/1pc-ei5qInySv6MeNsAXAa53-K3eIy76c/view?usp=sharing">
+                <Link href="https://drive.google.com/file/d/1dgilBJ0al-ZnL2X60z8XVU8cbBL6jJgW/view?usp=sharing">
                   <div className="inline-flex items-center rounded-lg bg-foreground text-background px-3 py-1 text-sm cursor-pointer transition-all duration-300 ease-out hover:opacity-75 font-semibold">
                     My Portfolio
                     <DownloadIcon className="ml-2 size-4" />
