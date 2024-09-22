@@ -49,6 +49,16 @@ export const DATA = {
 
   work: [
     {
+      company: "PT Alfath Corp",
+      href: "https://www.alfathcorp.id/",
+      badges: [],
+      title: "Back End Developer",
+      logoUrl: "/alfathcorp.jpg",
+      start: "Aug 2024",
+      end: "Dec 2024",
+      description: "working on the Psikoline psychotest website, which features DISC and Kraepelin tests for recruitment. In this role, I contributed to developing and maintaining backend systems, ensuring seamless integration and performance for the application.",
+    },
+    {
       company: "PT Hexindo Adiperkasa Tbk",
       href: "https://www.hexindo-tbk.co.id/id/",
       badges: [],
