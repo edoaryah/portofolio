@@ -34,7 +34,7 @@ export default function Page() {
               <BlurFade delay={BLUR_FADE_DELAY}>
                 <Link href="https://drive.google.com/file/d/1dgilBJ0al-ZnL2X60z8XVU8cbBL6jJgW/view?usp=sharing">
                   <div className="inline-flex items-center rounded-lg bg-foreground text-background px-3 py-1 text-sm cursor-pointer transition-all duration-300 ease-out hover:opacity-75 font-semibold">
-                    My Portfolio
+                    My Curriculum Vitae
                     <DownloadIcon className="ml-2 size-4" />
                   </div>
                 </Link>
@@ -89,22 +89,31 @@ export default function Page() {
           <BlurFade delay={BLUR_FADE_DELAY * 7}>
             <h2 className="text-xl font-bold">Education</h2>
           </BlurFade>
-          {DATA.education.map((education, id) => (
-            <BlurFade
-              key={education.school}
-              delay={BLUR_FADE_DELAY * 8 + id * 0.05}
-            >
-              <ResumeCard
+          {DATA.education.map((education, id) => {
+            const start = education.start as string;
+            const end = education.end as string;
+            const period =
+              start && end && start !== end
+                ? `${start} - ${end}`
+                : start || end;
+
+            return (
+              <BlurFade
                 key={education.school}
-                href={education.href}
-                logoUrl={education.logoUrl}
-                altText={education.school}
-                title={education.school}
-                period={`${education.start} - ${education.end}`}
-                description={education.degree}
-              />
-            </BlurFade>
-          ))}
+                delay={BLUR_FADE_DELAY * 8 + id * 0.05}
+              >
+                <ResumeCard
+                  key={education.school}
+                  href={education.href}
+                  logoUrl={education.logoUrl}
+                  altText={education.school}
+                  title={education.school}
+                  period={period}
+                  description={education.degree}
+                />
+              </BlurFade>
+            );
+          })}
         </div>
       </section>
       <section id="skills">
@@ -235,6 +244,45 @@ export default function Page() {
               ))}
             </ul>
           </BlurFade>
+        </div>
+      </section>
+
+      <section id="certifications">
+        <div className="space-y-12 w-full py-12">
+          <BlurFade delay={BLUR_FADE_DELAY * 15}>
+            <div className="flex flex-col items-center justify-center space-y-4 text-center">
+              <div className="space-y-2">
+                <div className="inline-block rounded-lg bg-foreground text-background px-3 py-1 text-sm">
+                  Certifications
+                </div>
+                <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">
+                  Licenses &amp; Certifications
+                </h2>
+                <p className="text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
+                  Professional certifications and credentials that validate my skills and expertise.
+                </p>
+              </div>
+            </div>
+          </BlurFade>
+          <div className="flex min-h-0 flex-col gap-y-3">
+            {DATA.certifications.map((cert, id) => (
+              <BlurFade
+                key={cert.title + cert.period}
+                delay={BLUR_FADE_DELAY * 16 + id * 0.05}
+              >
+                <ResumeCard
+                  key={cert.title}
+                  logoUrl={cert.logoUrl}
+                  altText={cert.issuer}
+                  title={cert.title}
+                  subtitle={cert.issuer}
+                  href={cert.href}
+                  period={cert.period}
+                  description={cert.description}
+                />
+              </BlurFade>
+            ))}
+          </div>
         </div>
       </section>
 
