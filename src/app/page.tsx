@@ -32,7 +32,7 @@ export default function Page() {
                 text={DATA.description}
               />
               <BlurFade delay={BLUR_FADE_DELAY}>
-                <Link href="https://drive.google.com/file/d/1dgilBJ0al-ZnL2X60z8XVU8cbBL6jJgW/view?usp=sharing">
+                <Link href="https://drive.google.com/file/d/1yrluJFwiqAozCtFWd7X8vNA03W5puPyW/view?usp=sharing">
                   <div className="inline-flex items-center rounded-lg bg-foreground text-background px-3 py-1 text-sm cursor-pointer transition-all duration-300 ease-out hover:opacity-75 font-semibold">
                     My Curriculum Vitae
                     <DownloadIcon className="ml-2 size-4" />
@@ -139,12 +139,10 @@ export default function Page() {
                   Featured Projects
                 </div>
                 <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">
-                  Check out my latest work
+                  Selected Projects
                 </h2>
                 <p className="text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-                  I&apos;ve worked on a variety of projects, from simple
-                  websites to complex web applications. Here are a few of my
-                  favorites.
+                  A selection of software projects I&apos;ve worked on, focusing on application development, backend systems, and practical solutions.
                 </p>
               </div>
             </div>
@@ -179,10 +177,10 @@ export default function Page() {
                   All Projects
                 </div>
                 <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">
-                  I enjoy building things
+                  Projects & Development
                 </h2>
                 <p className="text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-                  Here is a comprehensive collection of all my projects, showcasing my diverse skills and experience across various technologies and platforms.
+                  Explore more of my projects, experiments, and software development work across different technologies.
                 </p>
               </div>
             </div>
@@ -217,10 +215,10 @@ export default function Page() {
                   Experiences
                 </div>
                 <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">
-                  My Journey So Far
+                  Beyond Work & Education
                 </h2>
                 <p className="text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-                  From volunteering and participating in competitions to being an active member of various organizations, these experiences have shaped my skills and career. Here&apos;s a glimpse of my journey.
+                  Experiences beyond academics and work that have contributed to my personal and professional growth.
                 </p>
               </div>
             </div>
@@ -295,10 +293,10 @@ export default function Page() {
               </div> */}
               <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">
                 {/* Get in Touch */}
-                Let&apos;s Collaborate with Me
+                Let&apos;s Connect
               </h2>
               <p className="mx-auto max-w-[600px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-                I&apos;m eager to connect and explore opportunities for collaboration. If you&apos;re looking for a dedicated and skilled professional, let&apos;s work together and achieve great results!
+                I&apos;m always open to connecting with fellow professionals, exploring new ideas, and discussing opportunities to collaborate or build meaningful projects together.
               </p>
             </div>
           </BlurFade>
